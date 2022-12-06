@@ -3,8 +3,8 @@ from os import getenv
 API_ID = int(getenv("API_ID", "5064650")) #optional
 API_HASH = getenv("API_HASH", "4d1f280482a19b49878e70af07ae5089") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1005080017").split()))
+OWNER_ID = int(getenv("OWNER_ID", "1005080017"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "5616511485:AAGShSesrxDcKPPcapx23lKmSREhxwoWfAI")
 ALIVE_PIC = getenv("ALIVE_PIC")
